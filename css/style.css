@@ -83,7 +83,7 @@ h3 {
   justify-content: space-between;
   gap: 1rem;
   padding: 1rem 6vw;
-  background: rgba(5, 5, 5, 0.55);
+  background: rgba(7, 7, 7, 0.582);
   backdrop-filter: blur(12px);
   border-bottom: 1px solid rgba(255, 255, 255, 0.06);
 }
@@ -102,10 +102,16 @@ h3 {
   place-items: center;
   width: 2.4rem;
   height: 2.4rem;
-  border: 1px solid var(--gold);
   color: var(--gold);
   font-family: "Cormorant Garamond", serif;
   font-size: 1.1rem;
+}
+
+.logo-mark img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
 }
 
 .nav {
@@ -363,11 +369,11 @@ h3 {
   margin-top: 1.5rem;
 }
 
-.address-card a {
-  color: var(--gold-soft);
+.address-card a.whatsapp-link:hover {
+  color: var(--gold);
 }
 
-.address-card a:hover {
+.address-card whatsapp-link:hover {
   color: var(--gold);
 }
 
@@ -388,7 +394,7 @@ h3 {
   padding: 2rem 6vw 3rem;
   text-align: center;
   color: var(--muted);
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 
 .footer p {
